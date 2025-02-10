@@ -25,9 +25,13 @@
                   background-color: #333;
                   padding: 10px 20px;
                   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
             }
 
             ul {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
                   list-style-type: none;
                   margin: 0;
                   padding: 0;
@@ -47,8 +51,6 @@
             a:hover {
                   text-decoration: underline;
             }
-
-          
       </style>
 </head>
 
@@ -60,4 +62,5 @@
             </ul>
       </nav>
 </body>
+
 </html>
